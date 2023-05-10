@@ -1,5 +1,18 @@
-table tr th{
+:root {
+    --primary: #2975E5;
+    --secondary:#D9D9D9;
+       
+}
+
+body{
+    background-color: var(--secondary);
+}
+
+table tr th, table tr td{
     border: 0.3rem solid black;
     width: 2rem;
     height: 2rem;
+}
+table{
+    border-collapse: collapse;
 }
