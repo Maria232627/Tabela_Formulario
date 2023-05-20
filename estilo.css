@@ -18,6 +18,7 @@ header{
     width: 100%;
     height: 10rem;
 }
+
 /*Subcabeçalho*/
 nav{
     background-color: var(--primary);
@@ -27,13 +28,8 @@ nav ul{
     list-style-type: none; 
     display: flex; 
     align-items: center; 
+    justify-content: center;
     height: 100%;
-}
-
-nav ul li{
-   display: flex;
-   text-align: center;
-   
 }
 nav ul li a{
     color: white;
@@ -58,16 +54,71 @@ footer img{
 }
 
 /*Página Inicial*/
-
-/*Página Curso*/
-table tr th, table tr td{
-    border: 0.3rem solid black;
-    width: 2rem;
-    height: 2rem;
+#mainpag1{
+    font-family: sans-serif;
 }
-table{
+#mainpag1 h2{
+    padding: 1rem;
+
+}
+#mainpag1 p{
+    margin-left: 1rem;
+}
+#lista{
+    margin-left: 2rem;
+    list-style-type: upper-roman;
+}
+#lista2{
+    list-style-type: square;
+    margin-left: 2rem;
+}
+
+/*Página Curso/tabela*/
+#mainpag2{
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 60%;
+    height: 100%;
+    border: 0.1rem solid black;
     border-collapse: collapse;
+    text-align: center;
+}
+
+thead{
+    font-weight: bolder;
+
+}
+tbody{
+    align-items: center;
+}
+
+table tr th,
+table tr td {
+    border: 0.2rem solid BLACK;
+    padding: 0.3rem;
+}
+
+.bolder{
+    font-weight: bold;
+}
+
+.centert{
+    text-align: left;
+}
+
+tfoot{
+    font-weight: bolder;
 }
 /*Página 3 FAQ*/
 
 /*Página 4 Formulário*/
+#mainpag4{
+    padding: 3rem;
+}
+fieldset{
+    padding: 1.8rem;
+}
